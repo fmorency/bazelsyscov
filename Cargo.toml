@@ -1,0 +1,9 @@
+[package]
+name = "bazelsyscov"
+version = "0.1.0"
+
+[[bin]]
+name = "bazelsyscov"
+
+[dependencies]
+merk = { git = "https://github.com/liftedinit/merk.git", rev = "da0b660abbfd58abd4a942773f205d2c079f3b27" }
